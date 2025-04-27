@@ -9,10 +9,10 @@ importers:
   .:
     dependencies:
       '@tauri-apps/api':
-        specifier: ^2
+        specifier: ^2.5.0
         version: 2.5.0
       '@tauri-apps/plugin-opener':
-        specifier: ^2
+        specifier: ^2.2.6
         version: 2.2.6
       react:
         specifier: ^18.3.1
@@ -22,13 +22,13 @@ importers:
         version: 18.3.1(react@18.3.1)
     devDependencies:
       '@tauri-apps/cli':
-        specifier: ^2
+        specifier: ^2.5.0
         version: 2.5.0
       '@vitejs/plugin-react':
-        specifier: ^4.3.4
+        specifier: ^4.4.1
         version: 4.4.1(vite@6.3.3)
       vite:
-        specifier: ^6.0.3
+        specifier: ^6.3.3
         version: 6.3.3
 
 packages:

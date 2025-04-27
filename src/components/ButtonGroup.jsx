@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { invoke } from "@tauri-apps/api/core";
 
 const ButtonGroup = ({ count, setCount, setImageSrc }) => {
   const text = [
@@ -31,9 +31,7 @@ const ButtonGroup = ({ count, setCount, setImageSrc }) => {
   };
 
   const handleLeftClick = () => {
-    setTimeout(() => {
-      window.location.href = "./res.html";
-    }, 300);
+    invoke("exit_app");
   };
 
   // 计算左按钮样式
